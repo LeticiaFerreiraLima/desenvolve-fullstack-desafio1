@@ -1,0 +1,228 @@
+:root{
+--cerise-color: #DB1E8C;
+
+--carnation-color: #FF97D3;
+
+--pickled-bluewood-color: #33475B;
+
+--white-color: #FFFFFF;
+
+--cornflower-color: #264FEC;
+
+--blue: #0000EE; 
+
+--cornflower-blue: #364372;
+
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'IBM Plex Sans', sans-serif ;
+    background-color: var(--pickled-bluewood-color) ;
+    
+}
+
+header{
+    display: flex;
+    background-color: var(--white-color);
+    height: 80px;
+
+    
+}
+
+.container-header{
+    display: flex;
+    width: 1280px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo-principal{
+    color: var(--blue);
+    font-size: 24px;
+    font-weight: 400;
+    
+}
+
+.label-pesquisa{
+    background-color: var(--cerise-color);
+    height: 40px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    gap: 4px;
+}
+
+.input-pesquisa {
+    padding: 4px;
+    background-color: transparent;
+    border: none;
+    
+}
+
+::placeholder{
+    color: var(--carnation-color);
+}
+
+.container{
+    width: 1280px;
+    margin: 0 auto;
+}
+
+
+.conteudo-principal{
+    margin-top: 32px;
+	margin-bottom: 32px;
+}
+
+.conteudo-principal-lista{
+    display: flex;
+    display: flex;
+	flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+
+.conteudo-principal-trilha{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: var(--white-color);
+    width: 400px;
+    height: 440px;
+    margin-right: 32px;
+    margin-bottom: 32px;
+    border-radius: 4px ;
+    
+}
+
+
+.conteudo-principal-trilha:nth-child(3n){
+    margin-right: 0;
+}
+
+.conteudo-principal-trilha:hover{
+    box-shadow: 2px 2px 5px #000000, -2px -2px 5px #000000;
+
+}
+
+.trilha-descricao {
+    width: 85%;
+    font-size: 16px;
+    margin: 32px;
+    
+}
+
+.trilha-descricao p{
+    margin-top: 32px;
+}
+
+.trilha-titulo{
+    font-size: 24px;
+    color: var(--cornflower-blue);
+    
+}
+
+.botao-ementa{
+    margin-left: 32px;
+    margin-bottom: 44px;
+    width: 150px;
+    
+    
+}
+
+.trilha-ementa{
+    color: var(--cornflower-color);
+    text-decoration: none ;
+    border: 1px solid var(--cornflower-color);
+    border-radius: 4px;
+    padding: 14px;
+}
+    
+
+.trilha-ementa:hover {
+    color: #DB1E8C;
+    border-color: #DB1E8C;
+}
+
+
+
+footer{
+    position: relative;
+    bottom: 0;
+    background-color: var(--white-color);
+    width: 100%;
+}
+
+.rodape{
+    display: flex;
+    width: 1280px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logos{
+    display: flex;
+    justify-content: space-between;
+    width: 210px;
+    align-items: center;
+    margin: 16px;
+}
+
+.logo-desenvolve{
+    margin: 16px;
+}
+
+.footer-right{
+    display: flex;
+    align-items: center;
+    width: 320px;
+    justify-content: space-between;
+    
+}
+
+.links-footer{
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+.links-footer a{
+    
+    text-decoration: none;
+    color: #000000;
+    margin-top: 16px;
+}
+
+.midias{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 200px;
+    margin-top: 16px;
+}
+
+.midias img{
+    margin: 0 auto;
+}
+
+.midias a{
+    display: flex;
+    margin: 16px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+}
+
+
